@@ -1,0 +1,12 @@
+Report Changes to this folder
+
+12/05/15
+* Added "Log" , "Contact Info" , "ReadMe" Text Documents
+* Added Workspace Folder
+* Added Yoyweb SubFolder Under Folder
+* Added "Web Sevice Form 2015" Word Documents
+* Added "Website QR.jpg" 
+
+12/16/15
+* Added "Fonts" , "Icons" , "Templates" Folders
+* Added First Template Design called "Template_1.psd" and Template_1.png
