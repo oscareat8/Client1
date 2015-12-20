@@ -9,6 +9,22 @@ body {
     font-family: 'Open Sans';
 }
 
+q {
+    font-family: 'Abel', sans-serif;
+    font-size: 150%;
+    font-style: italic;
+    font-weight: bolder;
+    
+}
+
+.article {
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+
+
+
 @media only screen and (max-width: 794px) {
 
     h1 {
