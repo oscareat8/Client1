@@ -22,10 +22,35 @@ q {
     font-family: 'Open Sans';
 }
 
+.article img {
+    height: auto;
+    width: 50%;
 
+}
+
+#nav_wrapper {
+    
+    
+}
+
+a:link, a:visited, a:active {
+    color:#9b9b9b;
+    
+}
+
+a:hover {
+    color:#000;
+    
+}
 
 
 @media only screen and (max-width: 794px) {
+    
+    .article img {
+    height: auto;
+    width: 80%;
+
+}
 
     h1 {
         font-weight: bold;
@@ -34,6 +59,7 @@ q {
     }
 
     #nav_wrapper {
+        
         text-align: center;
         margin: 0 auto;
     }
@@ -43,6 +69,7 @@ q {
         padding: 2vh;
         border-bottom-style: solid;
         border-width: thin;
+        border-bottom-color: #737373;
     }
 
 
@@ -59,6 +86,11 @@ q {
     .box-shadow-menu {
         visibility: visible;
     }
+    
+    
+    
+    
+    
 }
 
 @media only screen and (min-width: 795px) {
