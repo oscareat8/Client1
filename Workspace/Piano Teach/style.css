@@ -14,7 +14,6 @@ q {
     font-size: 150%;
     font-style: italic;
     font-weight: bolder;
-    
 }
 
 .article {
@@ -22,35 +21,29 @@ q {
     font-family: 'Open Sans';
 }
 
-.article img {
-    height: auto;
-    width: 50%;
-
-}
+    .article img {
+        height: auto;
+        width: 50%;
+    }
 
 #nav_wrapper {
-    
-    
 }
 
 a:link, a:visited, a:active {
-    color:#9b9b9b;
-    
+    color: #9b9b9b;
 }
 
 a:hover {
-    color:#000;
-    
+    color: #000;
 }
 
 
 @media only screen and (max-width: 794px) {
-    
-    .article img {
-    height: auto;
-    width: 80%;
 
-}
+    .article img {
+        height: auto;
+        width: 80%;
+    }
 
     h1 {
         font-weight: bold;
@@ -59,7 +52,7 @@ a:hover {
     }
 
     #nav_wrapper {
-        
+        width: 60vw;
         text-align: center;
         margin: 0 auto;
     }
@@ -86,11 +79,6 @@ a:hover {
     .box-shadow-menu {
         visibility: visible;
     }
-    
-    
-    
-    
-    
 }
 
 @media only screen and (min-width: 795px) {
@@ -112,13 +100,13 @@ a:hover {
         list-style-type: none;
     }
 
-        .items, .items a {
-            visibility: visible;
-            display: inline;
-            text-decoration: none;
-        }
+    .items, .items a {
+        visibility: visible;
+        display: inline;
+        text-decoration: none;
+    }
 
-        .nav a {
-            margin: 3vw;
-        }
+    .nav a {
+        margin: 3vw;
+    }
 }
