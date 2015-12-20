@@ -44,12 +44,12 @@
         var isOpen = false;
         function toggleMenu() {
             if (!isOpen) {
-                $('ul.nav').animate({ height: '190px' });
+                $('ul.nav').stop().animate({ height: '190px' });
                 $('.items').css("visibility", "visible");
                 $('.items').css("display", "inherit");
                 isOpen = true;
             } else {
-                $('ul.nav').animate({ height: '70px' });
+                $('ul.nav').stop().animate({ height: '70px' });
                 $('.items').css("visibility", "hidden");
                 $('.items').css("display", "none");
                 isOpen = false;
@@ -60,11 +60,11 @@
             if ($('.box-shadow-menu').css('visibility') == 'hidden') {
                 $('.items').css("visibility", "visible");
                 $('.items').css("display", "inline");
-                $('ul.nav').animate({ height: '22px' });
+                $('ul.nav').stop().animate({ height: '22px' });
             } else {
                 $('.items').css("visibility", "hidden");
                 $('.items').css("display", "none");
-                $('ul.nav').animate({ height: '70px' });
+                $('ul.nav').stop().animate({ height: '70px' });
             }
         }
     </script>
